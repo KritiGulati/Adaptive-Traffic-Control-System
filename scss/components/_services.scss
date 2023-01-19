@@ -1,0 +1,60 @@
+#services{
+    padding-top: 100px;
+}
+
+.list-features{
+    display: flex;
+    justify-content: space-around;
+
+    @include md{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .feature-col-1{
+        width: 45%;
+
+        @include md{
+            width: 90%;
+
+        }
+    }
+
+    .feature-col-2{
+        width: 45%;
+
+        @include md{
+            width: 90%;
+        }
+    }
+}
+
+.benefits{
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+    @include md{
+        flex-wrap: wrap;
+    }
+    
+    div{
+        width: 33%;
+        @include md{
+            width: 100%;
+            text-align: center;
+        }
+    }
+}
+.vid-div{
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    video{
+        width: 60%;
+
+        @include md{
+            width: 100%;
+        }
+    }
+}
