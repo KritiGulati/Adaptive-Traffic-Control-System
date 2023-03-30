@@ -1282,12 +1282,6 @@ header .logo a img {
   font-weight: 600;
   color: #707070;
 }
-.call-form .form1 input:-ms-input-placeholder {
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  color: #707070;
-}
 .call-form .form1 input::placeholder {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
@@ -1315,14 +1309,6 @@ header .logo a img {
   }
 }
 .call-form .form1 textarea::-moz-placeholder {
-  font-family: "Poppins", sans-serif;
-  font-size: 14px;
-  font-weight: 600;
-  color: #707070;
-  padding-left: 0.4rem;
-  padding-top: 0.4rem;
-}
-.call-form .form1 textarea:-ms-input-placeholder {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 600;
