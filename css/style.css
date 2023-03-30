@@ -266,6 +266,10 @@ html {
   color: #099e71;
 }
 
+a.btn-type-1 {
+  text-decoration: none;
+}
+
 .btn-type-2 {
   border: none;
   outline: 0;
